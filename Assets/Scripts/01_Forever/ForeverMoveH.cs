@@ -6,10 +6,10 @@ using UnityEngine;
 public class ForeverMoveH : MonoBehaviour
 {
 	//-------------------------------------
-	public float speed = 1; //［速度］
-	//-------------------------------------
+	public float speed = 3; //［速度］
+													//-------------------------------------
 	void FixedUpdate()
 	{
-        transform.Translate(speed * Time.deltaTime, 0, 0); // 水平に移動
+		transform.Translate(speed * Time.deltaTime, 0, 0); // 水平に移動
 	}
 }
